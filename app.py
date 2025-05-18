@@ -13,7 +13,11 @@ def get_base64_logo(path):
 logo_base64 = get_base64_logo("logo.png")
 
 
-st.set_page_config(page_title="Orçamento Banrisul", layout="wide")
+st.set_page_config(
+    page_title="Orçamento Banrisul",
+    page_icon="logo.png",  # Ícone da aba
+    layout="wide"
+)
 
 
 # Cabeçalho com imagem e título
